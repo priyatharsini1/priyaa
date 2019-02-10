@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int c,t,n,num[20],end;
+clrscr();
+scanf("%d",&n);
+for(c=0;c<n;c++)
+{
+scanf("%d",&num[c]);
+}
+end=n-1;
+for(c=0;c<n/2;c++)
+{
+t=num[c];
+num[c]=num[end];
+num[end]=t;
+end--;
+}
+for(c=0;c<n;c++)
+{
+printf("%d\n",num[c]);
+}
+getch();
+}
