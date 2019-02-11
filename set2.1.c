@@ -4,12 +4,12 @@ void main()
 {
 int n,s,sum=1;
 clrscr();
-scanf("%d%d",&n,&s);
+scanf("%d  %d",&n,&s);
 while(s)
 {
 sum*=n;
 s--;
 }
-printf("%d",sum);
+printf("%d  ",sum);
 getch();
 }
