@@ -5,7 +5,7 @@ int main()
   int array[100],k,i,j,temp,n;
   printf("Enter The length Of The Array ");
   scanf("%d%d",&n,&k);
-  printf("\nEnter The Numbers:");
+  printf("\n Enter The Numbers:");
  for(i=0;i<n;i++)
    {
     scanf("%d",&array[i]);
@@ -24,8 +24,8 @@ int main()
      }
   for(i=0;i<n;i++)
   {
-    printf(" %d ",array[i]);
+    printf("  %d ",array[i]);
    }
-   printf("\nThe %d th smallest number is: %d",k,array[k-1]);
+   printf("\nThe    %d th smallest number is: %d",k,array[k-1]);
    return 0;
    }
