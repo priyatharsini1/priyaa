@@ -6,7 +6,7 @@ void main()
 int n,sum=0,rem=0,b=0,temp;
 clrscr();
 printf("enter a number:");
-scanf("%d",&n);
+scanf(" %d",&n);
 temp=n;
 while(n!=0)
 {
@@ -17,11 +17,11 @@ n=n/10;
 }
 if(sum==temp)
 {
-printf("yes");
+printf( "yes");
 }
 else
 {
-printf("no");
+printf(" no");
 }
 getch();
 }
