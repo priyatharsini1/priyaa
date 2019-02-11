@@ -5,7 +5,7 @@ void main()
 int a,b,flag,i;
 clrscr();
 printf("enter two numbers:");
-scanf("%d%d",&a,&b);
+scanf("%d  %d",&a,&b);
 while(a<b)
 {
 flag=0;
@@ -19,7 +19,7 @@ break;
 }
 if(flag==0)
 {
-printf("%d ",a);
+printf("%d  ",a);
 }
 a++;
 }
