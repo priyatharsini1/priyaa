@@ -4,7 +4,7 @@ void main()
 {
 int n,a,rem=0,sum=0;
 clrscr();
-scanf("%d",&n);
+scanf(" %d",&n);
 a=n;
 while(a)
 {
@@ -12,10 +12,10 @@ rem=a%10;
 sum=sum*10+rem;
 a=a/10;
 }
-printf("%d\n",sum);
+printf("%d \n",sum);
 if(n==sum)
 {
-printf("palindrome");
+printf ("palindrome");
 }
 else
 {
