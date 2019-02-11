@@ -4,7 +4,7 @@ void main()
 {
 int a[20],max,i,n;
 clrscr();
-scanf("%d",&n);
+scanf(" %d",&n);
 for(i=0;i<n;i++)
 {
 scanf("%d",&a[i]);
@@ -17,6 +17,6 @@ if(a[i]>max)
 max=a[i];
 }
 }
-printf("%d",max);
+printf("  %d",max);
 getch();
 }
