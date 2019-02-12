@@ -5,17 +5,21 @@ void main()
 int n,x=1,pow=2,i;
 clrscr();
 scanf("%d",&n);
-for(i=1;i<=n;i++)
+for(i=n%2;i<=n%2;i++)
 {
-x=x*pow;
-if(x==n)
+
+if(n%2==0)
 {
-printf("yes");
+pow++;
 }
 }
-if(x!=n)
+if(pow!=0)
 {
 printf("no");
+}
+else
+{
+    printf("yes");
 }
 getch();
 }
