@@ -4,8 +4,8 @@ void main()
 {
 int a,b,sum=0;
 clrscr();
-scanf("%d%d",&a,&b);
+scanf("%d %d",&a,&b);
 sum=a+b;
-printf("%d",sum);
+printf(" %d",sum);
 getch();
 }
