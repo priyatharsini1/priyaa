@@ -20,11 +20,11 @@ break;
 }
 if(des==0)
 {
-printf("yes");
+printf(" yes");
 }
 else
 {
-printf("no");
+printf(" no");
 }
 getch();
 }
