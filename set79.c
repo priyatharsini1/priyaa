@@ -4,7 +4,7 @@ void main()
 {
 int n,m,s=0,des=0,i,b=0;
 clrscr();
-scanf("%d%d",&n,&m);
+scanf("%d  %d",&n,&m);
 s=n*m;
 for(i=1;i<50;i++)
 {
@@ -19,8 +19,8 @@ des=1;
 }
 }
 if(des==0)
-printf("yes");
+printf(" yes");
 else
-printf("no");
+printf(" no");
 getch();
 }
