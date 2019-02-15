@@ -13,6 +13,6 @@ if(a[i]==' ')
 count++;
 }
 }
-printf("%d",count);
+printf(" %d",count);
 getch();
 }
