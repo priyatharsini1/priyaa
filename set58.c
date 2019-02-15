@@ -13,7 +13,7 @@ for(i=0;i<n;i++)
 {
 if(a[i]==k)
 {
-printf("yes");
+printf(" yes");
 des=0;
 break;
 }
@@ -24,7 +24,7 @@ des=1;
 }
 if(des==1)
 {
-printf("no");
+printf(" no");
 }
 getch();
 }
