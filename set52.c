@@ -38,7 +38,7 @@ case 10:
 printf("ten");
 break;
 default:
-printf("enter the number between 1 to 10");
+printf(" enter the number between 1 to 10");
 break;
 }
 getch();
