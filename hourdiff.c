@@ -4,8 +4,8 @@ void main()
 {
 int h1,h2,m1,m2,h3,m3;
 clrscr();
-scanf("%d%d",&h1,&m1);
-scanf("%d%d",&h2,&m2);
+scanf("%d %d",&h1,&m1);
+scanf("%d %d",&h2,&m2);
 if(h1>h2 && m1>m2)
 {
 h3=h1-h2;
@@ -26,6 +26,6 @@ else if(h1<h2 && m1==m2)
 h3=h2-h1;
 m3=0;
 }
-printf("%d %d",h3,m3);
+printf("%d  %d",h3,m3);
 getch();
 }
